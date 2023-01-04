@@ -80,9 +80,9 @@ def is_element_of_set(x, set):
     elif x > entry(set):
         return is_element_of_set(x, right_branch(set))
     
-set1 = [7, [3, [1, [], []], [5, [], []]], [9, [], [11, [], []]]]
-print(is_element_of_set(5, set1)) # True
-print(is_element_of_set(99, set1)) # False
+set = [7, [3, [1, [], []], [5, [], []]], [9, [], [11, [], []]]]
+print(is_element_of_set(5, set)) # True
+print(is_element_of_set(99, set)) # False
 
 
 def adjoin_set(x, set):
@@ -99,8 +99,8 @@ def adjoin_set(x, set):
                         left_branch(set), \
                         adjoin_set(x, right_branch(set)))
         
-set1 = [7, [3, [1, [], []], [5, [], []]], [9, [], [11, [], []]]]
-print(adjoin_set(6, set1))
+set = [7, [3, [1, [], []], [5, [], []]], [9, [], [11, [], []]]]
+print(adjoin_set(6, set))
 # [7, [3, [1, [], []], [5, [], [6, [], []]]], [9, [], [11, [], []]]]
 
 
