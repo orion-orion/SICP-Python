@@ -56,3 +56,59 @@ print(is_element_of_set(5, set1)) # True
 print(is_element_of_set(99, set1)) # False
 print(adjoin_set(11, set1)) # [11, 2, 5, 10]
 print(intersection_set(set1, set2)) # [5]
+
+
+def entry(tree):
+    return tree[0]
+
+def left_branch(tree):
+    return tree[1]
+
+def right_branch(tree):
+    return tree[2]
+
+def make_tree(entry, left, right):
+    return [entry, left, right]
+
+def is_element_of_set(x, set):
+    if not set:
+        return False
+    elif entry(set) == x:
+        return True
+    elif x < entry(set):
+        return is_element_of_set(x, left_branch(set))
+    elif x > entry(set):
+        return is_element_of_set(x, right_branch(set))
+    
+set1 = [7, [3, [1, [], []], [5, [], []]], [9, [], [11, [], []]]]
+print(is_element_of_set(5, set1)) # True
+print(is_element_of_set(99, set1)) # False
+
+
+def adjoin_set(x, set):
+    if not set:
+        return make_tree(x, [], [])
+    elif x == entry(set):
+        return set
+    elif x < entry(set):
+        return make_tree(entry(set), \
+                        adjoin_set(x, left_branch(set)), \
+                        right_branch(set))
+    elif x > entry(set):
+        return make_tree(entry(set), \
+                        left_branch(set), \
+                        adjoin_set(x, right_branch(set)))
+        
+set1 = [7, [3, [1, [], []], [5, [], []]], [9, [], [11, [], []]]]
+print(adjoin_set(6, set1))
+# [7, [3, [1, [], []], [5, [], [6, [], []]]], [9, [], [11, [], []]]]
+
+
+# def lookup(given_key, set_of_records):
+#     if not set_of_records:
+#         return False
+#     elif given_key == key(set_of_records[0]):  
+#         return set_of_records[0]
+#     else:
+#         return lookup(given_key, set_of_records[1: ])
+    
