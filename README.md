@@ -6,15 +6,17 @@
  * @LastEditors: ZhangHongYu
  * @LastEditTime: 2022-07-02 19:33:57
 -->
-<center><img src="pic/SICP_cover.jpeg" width="300" height="400">
+<p align="center"><img src="pic/SICP_cover.jpeg" width="300" height="400"></p>
 
-# 计算机程序的构造和解释(Python)
-____
-📚 *This book is dedicated, in respect and admiration, to the spirit that lives in the computer*.
+<div align="center">
+
+# 计算机程序的构造和解释(第二版)
+
+📚 *带着崇敬和赞美，将本书献给活在计算机里的神灵。*
 
 [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/orion-orion/NumericalAnalysis) [![](https://img.shields.io/github/license/orion-orion/NumericalAnalysis)](https://github.com/orion-orion/NumericalAnalysis/blob/master/LICENSE) [![](https://img.shields.io/github/stars/orion-orion/NumericalAnalysis?style=social)](https://github.com/orion-orion/NumericalAnalysis)
 
- </center>
+ </div>
 
 ## 1 简介
 本项目为《计算机程序的构造和解释》(Hal Abelson等著) 中的所有示例程序实现（使用Python）。正在施工🚧中。。。。
