@@ -24,17 +24,22 @@
 ## 2 目录
 
 - 第2章 构造数据抽象
-  - 2.2 层次性数据和闭包性质
-    - 2.2.1 序列的表示 [[代码讲解]](https://www.cnblogs.com/orion-orion/p/16234680.html) 
-    - 2.2.2 层次性结构 [[代码讲解]](https://www.cnblogs.com/orion-orion/p/16234680.html) 
-    - 2.2.3 序列作为一种约定的interface [[代码讲解]](https://www.cnblogs.com/orion-orion/p/16234680.html) 
-  - 2.3 符号数据
-    - 2.3.2 符号求导 [[代码讲解]](https://www.cnblogs.com/orion-orion/p/17026000.html) 
-    - 2.3.3 集合的表示 [[代码讲解]](https://www.cnblogs.com/orion-orion/p/17026000.html) 
-    - 2.3.4 Huffman编码树 [[代码讲解]](https://www.cnblogs.com/orion-orion/p/17026000.html) 
-  - 2.4 抽象数据的多重表示
-    -  2.4.1 复数的表示 [[代码讲解]](https://www.cnblogs.com/orion-orion/p/17065543.html) 
-    -  2.4.2 带标志数据 [[代码讲解]](https://www.cnblogs.com/orion-orion/p/17065543.html) 
+  - 2.2 层次性数据和闭包性质[[代码讲解]](https://www.cnblogs.com/orion-orion/p/16234680.html) 
+    - 2.2.1 序列的表示 
+    - 2.2.2 层次性结构 
+    - 2.2.3 序列作为一种约定的interface 
+  - 2.3 符号数据[[代码讲解]](https://www.cnblogs.com/orion-orion/p/17026000.html) 
+    - 2.3.2 符号求导 
+    - 2.3.3 集合的表示 
+    - 2.3.4 Huffman编码树
+  - 2.4 抽象数据的多重表示 [[代码讲解]](https://www.cnblogs.com/orion-orion/p/17065543.html) 
+    -  2.4.1 复数的表示
+    -  2.4.2 带标志数据 
+- 第3章 模块化、对象和状态
+  - 3.1 赋值和局部状态 [[代码讲解]](https://www.cnblogs.com/orion-orion/p/17185719.html) 
+    - 3.1.1 局部状态变量
+    - 3.1.2 引进赋值带来的利益
+    - 3.1.3 引进赋值的代价    
 
 
 
