@@ -27,7 +27,7 @@
   - 2.2 层次性数据和闭包性质[[代码讲解]](https://www.cnblogs.com/orion-orion/p/16234680.html) 
     - 2.2.1 序列的表示 
     - 2.2.2 层次性结构 
-    - 2.2.3 序列作为一种约定的interface 
+    - 2.2.3 序列作为一种约定的接口 
   - 2.3 符号数据[[代码讲解]](https://www.cnblogs.com/orion-orion/p/17026000.html) 
     - 2.3.2 符号求导 
     - 2.3.3 集合的表示 
